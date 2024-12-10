@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 77, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(salah.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .container {
+    padding: 32px;
+    margin: 32px;
+    border: solid 1px rgb(174, 34, 34);
+    border-radius: 24%;
+    width: 90%;
+    max-width: 600px;
+    background-color: rgb(16, 50, 50);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    background-color: cyan;
+    /* background-color: rgb(238, 238, 171); */
+    /* border: solid 3px rgb(255, 77, 0) ; */
+    border-radius: 100px;
+  }
+  
+  
+  #currentDateTime {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  }
+  
+  .task-input input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .task-input button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 1rem;
+    color: purple;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .task-input button:hover {
+    background-color: rgb(255, 174, 0);
+  }
+  
+  #taskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: purple;
+    border-radius: 4px;
+  }
+  
+  .task-item span {
+    font-weight: bold;
+  }
+  
+  .task-item .task-meta {
+    font-size: 0.9rem;
+    color: #6b6b6b;
+  }
+  
+  .task-item button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .task-item button:hover {
+    background-color: green;
+  }
+  
